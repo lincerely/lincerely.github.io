@@ -1,0 +1,1 @@
+__NEXT_REGISTER_CHUNK("components_avatarLincerely_2dd6f2b075fb068c994380ec8ed2bf8e",function(){webpackJsonp([3],{312:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var c=n(1),a=n.n(c),r=n(25);t.default=function(){return a.a.createElement(r.a,{alt:"Lincerely",src:"https://avatars2.githubusercontent.com/u/12080537?s=460&v=4"})}}})});
