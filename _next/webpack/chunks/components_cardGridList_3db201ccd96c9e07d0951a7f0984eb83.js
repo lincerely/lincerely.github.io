@@ -1,6 +1,6 @@
 
         __NEXT_REGISTER_CHUNK('components_cardGridList_3db201ccd96c9e07d0951a7f0984eb83', function() {
-      webpackJsonp([8],{
+      webpackJsonp([6],{
 
 /***/ "./components/cardGridList.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -57,9 +57,11 @@ var styles = function styles(theme) {
     root: {},
     gridContainer: {},
     card: (_card = {
-      padding: theme.spacing.unit
+      padding: theme.spacing.unit * 2
     }, _defineProperty(_card, theme.breakpoints.only("xs"), {
-      width: "100%"
+      width: "100%",
+      padding: theme.spacing.unit * .5,
+      paddingBottom: theme.spacing.unit * 2
     }), _defineProperty(_card, theme.breakpoints.only("sm"), {
       width: "50%"
     }), _defineProperty(_card, theme.breakpoints.up("md"), {
@@ -89,13 +91,13 @@ function (_React$Component) {
         className: classes.root,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 54
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_react_masonry_component___default.a, {
         className: classes.gridContainer,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 55
         }
       }, data.map(function (work) {
         return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
@@ -103,13 +105,13 @@ function (_React$Component) {
           className: classes.card,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 55
+            lineNumber: 58
           }
         }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_previewCard__["a" /* default */], {
           data: work,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 56
+            lineNumber: 59
           }
         }));
       })));
