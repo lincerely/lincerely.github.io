@@ -1,1 +1,0 @@
-module.exports=__NEXT_REGISTER_PAGE("/bio",function(){return{page:webpackJsonp([8],{713:function(e,o,n){e.exports=n(714)}},[713]).default}});

@@ -1,6 +1,6 @@
 
         __NEXT_REGISTER_CHUNK('components_cardGridList_3db201ccd96c9e07d0951a7f0984eb83', function() {
-      webpackJsonp([6],{
+      webpackJsonp([7],{
 
 /***/ "./components/cardGridList.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -139,15 +139,31 @@ Object.defineProperty(CardGridList, "defaultProps", {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__material_ui_core_styles__ = __webpack_require__("./node_modules/@material-ui/core/styles/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__material_ui_core_styles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__material_ui_core_styles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__material_ui_core__ = __webpack_require__("./node_modules/@material-ui/core/index.es.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__material_ui_icons_Link__ = __webpack_require__("./node_modules/@material-ui/icons/Link.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__material_ui_icons_Link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__material_ui_icons_Link__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__material_ui_icons_Code__ = __webpack_require__("./node_modules/@material-ui/icons/Code.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__material_ui_icons_Code___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__material_ui_icons_Code__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react_player__ = __webpack_require__("./node_modules/react-player/lib/ReactPlayer.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react_player___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react_player__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__material_ui_core_styles_withStyles__ = __webpack_require__("./node_modules/@material-ui/core/styles/withStyles.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__material_ui_core_styles_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__material_ui_core_styles_withStyles__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__material_ui_core_Card__ = __webpack_require__("./node_modules/@material-ui/core/Card/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__material_ui_core_Card___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__material_ui_core_Card__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__material_ui_core_CardContent__ = __webpack_require__("./node_modules/@material-ui/core/CardContent/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__material_ui_core_CardContent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__material_ui_core_CardContent__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__material_ui_core_CardActions__ = __webpack_require__("./node_modules/@material-ui/core/CardActions/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__material_ui_core_CardActions___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_CardActions__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__material_ui_core_CardMedia__ = __webpack_require__("./node_modules/@material-ui/core/CardMedia/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__material_ui_core_CardMedia___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_CardMedia__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__material_ui_core_Typography__ = __webpack_require__("./node_modules/@material-ui/core/Typography/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__material_ui_core_Typography___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_Typography__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__material_ui_core_IconButton__ = __webpack_require__("./node_modules/@material-ui/core/IconButton/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__material_ui_core_IconButton___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_IconButton__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__material_ui_core_Chip__ = __webpack_require__("./node_modules/@material-ui/core/Chip/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__material_ui_core_Chip___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__material_ui_core_Chip__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__material_ui_core_CardHeader__ = __webpack_require__("./node_modules/@material-ui/core/CardHeader/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__material_ui_core_CardHeader___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__material_ui_core_CardHeader__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_githubIcon__ = __webpack_require__("./components/githubIcon.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__material_ui_icons_Link__ = __webpack_require__("./node_modules/@material-ui/icons/Link.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__material_ui_icons_Link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11__material_ui_icons_Link__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__material_ui_icons_Code__ = __webpack_require__("./node_modules/@material-ui/icons/Code.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__material_ui_icons_Code___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__material_ui_icons_Code__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_react_player__ = __webpack_require__("./node_modules/react-player/lib/ReactPlayer.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_react_player___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_react_player__);
 var _jsxFileName = "/Users/lincoln/Codes/react/portfolio/components/previewCard.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -163,6 +179,14 @@ function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) ===
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+
+
+
+
+
+
+
 
 
 
@@ -192,18 +216,13 @@ var PreviewCard =
 function (_React$Component) {
   _inherits(PreviewCard, _React$Component);
 
-  function PreviewCard() {
-    var _ref;
-
-    var _temp, _this;
+  function PreviewCard(props) {
+    var _this;
 
     _classCallCheck(this, PreviewCard);
 
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _possibleConstructorReturn(_this, (_temp = _this = _possibleConstructorReturn(this, (_ref = PreviewCard.__proto__ || Object.getPrototypeOf(PreviewCard)).call.apply(_ref, [this].concat(args))), Object.defineProperty(_assertThisInitialized(_this), "state", {
+    _this = _possibleConstructorReturn(this, (PreviewCard.__proto__ || Object.getPrototypeOf(PreviewCard)).call(this, props));
+    Object.defineProperty(_assertThisInitialized(_this), "state", {
       configurable: true,
       enumerable: true,
       writable: true,
@@ -211,7 +230,8 @@ function (_React$Component) {
         expanded: false,
         open: false
       }
-    }), Object.defineProperty(_assertThisInitialized(_this), "handleExpandClick", {
+    });
+    Object.defineProperty(_assertThisInitialized(_this), "handleExpandClick", {
       configurable: true,
       enumerable: true,
       writable: true,
@@ -222,7 +242,8 @@ function (_React$Component) {
           };
         });
       }
-    }), Object.defineProperty(_assertThisInitialized(_this), "handleOpenVideoModal", {
+    });
+    Object.defineProperty(_assertThisInitialized(_this), "handleOpenVideoModal", {
       configurable: true,
       enumerable: true,
       writable: true,
@@ -231,7 +252,8 @@ function (_React$Component) {
           open: true
         });
       }
-    }), Object.defineProperty(_assertThisInitialized(_this), "handleCloseVideoModal", {
+    });
+    Object.defineProperty(_assertThisInitialized(_this), "handleCloseVideoModal", {
       configurable: true,
       enumerable: true,
       writable: true,
@@ -240,7 +262,9 @@ function (_React$Component) {
           open: false
         });
       }
-    }), _temp));
+    });
+    _this.props.data.genre = _this.props.data.genre.sort();
+    return _this;
   }
 
   _createClass(PreviewCard, [{
@@ -262,23 +286,23 @@ function (_React$Component) {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 76
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__material_ui_core__["b" /* Card */], {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__material_ui_core_Card___default.a, {
         className: classes.card,
         elevation: 0,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 77
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__material_ui_core__["e" /* CardHeader */], {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__material_ui_core_CardHeader___default.a, {
         title: title,
         subheader: brief,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 78
         }
-      }), video || vimeo ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__material_ui_core__["f" /* CardMedia */], {
+      }), video || vimeo ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_CardMedia___default.a, {
         title: title,
         src: video || vimeo,
         component: function component() {
@@ -289,9 +313,9 @@ function (_React$Component) {
             },
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 73
+              lineNumber: 86
             }
-          }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_react_player___default.a, {
+          }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_13_react_player___default.a, {
             style: {
               position: "absolute",
               top: 0,
@@ -305,114 +329,93 @@ function (_React$Component) {
             controls: true,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 74
+              lineNumber: 87
             }
           }));
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 82
         }
-      }) : __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__material_ui_core__["f" /* CardMedia */], {
+      }) : __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_CardMedia___default.a, {
         className: classes.preview,
         image: image,
         title: title,
         component: "img",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85
+          lineNumber: 98
         }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__material_ui_core__["d" /* CardContent */], {
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__material_ui_core_CardContent___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92
+          lineNumber: 105
         }
       }, detail && detail.split("\n").map(function (line, index) {
-        return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__material_ui_core__["w" /* Typography */], {
+        return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_Typography___default.a, {
           key: title.concat(index),
           paragraph: true,
           gutterBottom: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 95
+            lineNumber: 108
           }
         }, " ", line, " ");
       }), genre.map(function (tag) {
-        return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__material_ui_core__["g" /* Chip */], {
+        return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__material_ui_core_Chip___default.a, {
           key: title + tag,
           label: tag,
           className: classes.chip,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 100
+            lineNumber: 113
           }
         });
-      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__material_ui_core__["c" /* CardActions */], {
+      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_CardActions___default.a, {
         className: classes.actions,
         justify: "flex-end",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105
+          lineNumber: 118
         }
-      }, link && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__material_ui_core__["l" /* IconButton */], {
+      }, link && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_IconButton___default.a, {
         href: link,
         target: "_blanks",
         "aria-label": "link",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 107
+          lineNumber: 120
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__material_ui_icons_Link___default.a, {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_11__material_ui_icons_Link___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 108
+          lineNumber: 121
         }
-      })), github && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__material_ui_core__["l" /* IconButton */], {
+      })), github && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_IconButton___default.a, {
         href: github,
         target: "_blanks",
         "aria-label": "github link",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 113
+          lineNumber: 126
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__material_ui_core__["v" /* SvgIcon */], {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__components_githubIcon__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 114
+          lineNumber: 127
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("svg", {
-        "aria-labelledby": "simpleicons-github-icon",
-        role: "img",
-        viewBox: "0 0 24 24",
-        xmlns: "http://www.w3.org/2000/svg",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 115
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", {
-        id: "simpleicons-github-icon",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 115
-        }
-      }, "GitHub icon"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("path", {
-        d: "M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 115
-        }
-      })))), build && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__material_ui_core__["l" /* IconButton */], {
+      })), build && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_IconButton___default.a, {
         href: build,
         "aria-label": "build link",
         target: "_blanks",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 121
+          lineNumber: 132
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_icons_Code___default.a, {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_12__material_ui_icons_Code___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 122
+          lineNumber: 133
         }
       })))));
     }
@@ -440,7 +443,7 @@ Object.defineProperty(PreviewCard, "defaultProps", {
     }
   }
 });
-/* harmony default export */ __webpack_exports__["a"] = (Object(__WEBPACK_IMPORTED_MODULE_1__material_ui_core_styles__["withStyles"])(styles)(PreviewCard));
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_1__material_ui_core_styles_withStyles___default()(styles)(PreviewCard));
 
 /***/ }),
 

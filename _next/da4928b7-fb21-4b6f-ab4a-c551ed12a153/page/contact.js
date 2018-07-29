@@ -1,0 +1,1 @@
+module.exports=__NEXT_REGISTER_PAGE("/contact",function(){return{page:webpackJsonp([6],{959:function(t,e,n){t.exports=n(960)}},[959]).default}});

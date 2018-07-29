@@ -22,14 +22,14 @@ var _jsxFileName = "/Users/lincoln/Codes/react/portfolio/components/unityBadge.j
       fileName: _jsxFileName,
       lineNumber: 5
     }
-  }) || __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__material_ui_core__["k" /* Grid */], {
+  }) || __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__material_ui_core__["d" /* Grid */], {
     container: true,
     justify: "flex-start",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__material_ui_core__["k" /* Grid */], {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__material_ui_core__["d" /* Grid */], {
     item: true,
     xs: 4,
     sm: 2,
@@ -43,26 +43,26 @@ var _jsxFileName = "/Users/lincoln/Codes/react/portfolio/components/unityBadge.j
       fileName: _jsxFileName,
       lineNumber: 8
     }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__material_ui_core__["k" /* Grid */], {
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__material_ui_core__["d" /* Grid */], {
     item: true,
     xs: 8,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__material_ui_core__["w" /* Typography */], {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__material_ui_core__["f" /* Typography */], {
     variant: "subheading",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     }
-  }, "Unity Certified Developer"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__material_ui_core__["w" /* Typography */], {
+  }, "Unity Certified Developer"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__material_ui_core__["f" /* Typography */], {
     variant: "body1",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     }
-  }, "Issued to Ling Hin Lincoln LI"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__material_ui_core__["w" /* Typography */], {
+  }, "Issued to Ling Hin Lincoln LI"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__material_ui_core__["f" /* Typography */], {
     variant: "body1",
     __source: {
       fileName: _jsxFileName,
