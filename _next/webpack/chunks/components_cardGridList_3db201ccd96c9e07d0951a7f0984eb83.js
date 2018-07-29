@@ -1,6 +1,6 @@
 
         __NEXT_REGISTER_CHUNK('components_cardGridList_3db201ccd96c9e07d0951a7f0984eb83', function() {
-      webpackJsonp([7],{
+      webpackJsonp([10],{
 
 /***/ "./components/cardGridList.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -133,6 +133,39 @@ Object.defineProperty(CardGridList, "defaultProps", {
 
 /***/ }),
 
+/***/ "./components/downloadIcon.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__material_ui_core_SvgIcon__ = __webpack_require__("./node_modules/@material-ui/core/SvgIcon/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__material_ui_core_SvgIcon___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__material_ui_core_SvgIcon__);
+var _jsxFileName = "/Users/lincoln/Codes/react/portfolio/components/downloadIcon.js";
+
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
+/* harmony default export */ __webpack_exports__["a"] = (function (props) {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__material_ui_core_SvgIcon___default.a, _extends({}, props, {
+    titleAccess: "Download icon",
+    "aria-hidden": "true",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("path", {
+    d: "M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    }
+  }));
+});
+
+/***/ }),
+
 /***/ "./components/previewCard.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -158,10 +191,9 @@ Object.defineProperty(CardGridList, "defaultProps", {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__material_ui_core_CardHeader__ = __webpack_require__("./node_modules/@material-ui/core/CardHeader/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__material_ui_core_CardHeader___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__material_ui_core_CardHeader__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_githubIcon__ = __webpack_require__("./components/githubIcon.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__material_ui_icons_Link__ = __webpack_require__("./node_modules/@material-ui/icons/Link.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__material_ui_icons_Link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11__material_ui_icons_Link__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__material_ui_icons_Code__ = __webpack_require__("./node_modules/@material-ui/icons/Code.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__material_ui_icons_Code___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__material_ui_icons_Code__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_downloadIcon__ = __webpack_require__("./components/downloadIcon.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__material_ui_icons_Launch__ = __webpack_require__("./node_modules/@material-ui/icons/Launch.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__material_ui_icons_Launch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__material_ui_icons_Launch__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_react_player__ = __webpack_require__("./node_modules/react-player/lib/ReactPlayer.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_react_player___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_react_player__);
 var _jsxFileName = "/Users/lincoln/Codes/react/portfolio/components/previewCard.js";
@@ -298,9 +330,49 @@ function (_React$Component) {
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__material_ui_core_CardHeader___default.a, {
         title: title,
         subheader: brief,
+        action: github && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_IconButton___default.a, {
+          href: github,
+          target: "_blanks",
+          "aria-label": "github link",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 82
+          }
+        }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__components_githubIcon__["a" /* default */], {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 83
+          }
+        })) || build && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_IconButton___default.a, {
+          href: build,
+          "aria-label": "build link",
+          target: "_blanks",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 86
+          }
+        }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_11__components_downloadIcon__["a" /* default */], {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 87
+          }
+        })) || link && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_IconButton___default.a, {
+          href: link,
+          target: "_blanks",
+          "aria-label": "link",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 90
+          }
+        }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_12__material_ui_icons_Launch___default.a, {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 91
+          }
+        })),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 80
         }
       }), video || vimeo ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_CardMedia___default.a, {
         title: title,
@@ -313,7 +385,7 @@ function (_React$Component) {
             },
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 86
+              lineNumber: 102
             }
           }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_13_react_player___default.a, {
             style: {
@@ -329,13 +401,13 @@ function (_React$Component) {
             controls: true,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 87
+              lineNumber: 103
             }
           }));
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82
+          lineNumber: 98
         }
       }) : __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_CardMedia___default.a, {
         className: classes.preview,
@@ -344,12 +416,12 @@ function (_React$Component) {
         component: "img",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 114
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__material_ui_core_CardContent___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105
+          lineNumber: 121
         }
       }, detail && detail.split("\n").map(function (line, index) {
         return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_Typography___default.a, {
@@ -358,7 +430,7 @@ function (_React$Component) {
           gutterBottom: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 108
+            lineNumber: 124
           }
         }, " ", line, " ");
       }), genre.map(function (tag) {
@@ -368,56 +440,10 @@ function (_React$Component) {
           className: classes.chip,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 113
+            lineNumber: 129
           }
         });
-      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_CardActions___default.a, {
-        className: classes.actions,
-        justify: "flex-end",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 118
-        }
-      }, link && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_IconButton___default.a, {
-        href: link,
-        target: "_blanks",
-        "aria-label": "link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 120
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_11__material_ui_icons_Link___default.a, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 121
-        }
-      })), github && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_IconButton___default.a, {
-        href: github,
-        target: "_blanks",
-        "aria-label": "github link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 126
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__components_githubIcon__["a" /* default */], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 127
-        }
-      })), build && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_IconButton___default.a, {
-        href: build,
-        "aria-label": "build link",
-        target: "_blanks",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 132
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_12__material_ui_icons_Code___default.a, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 133
-        }
-      })))));
+      }))));
     }
   }]);
 
@@ -447,7 +473,7 @@ Object.defineProperty(PreviewCard, "defaultProps", {
 
 /***/ }),
 
-/***/ "./node_modules/@material-ui/icons/Code.js":
+/***/ "./node_modules/@material-ui/icons/Launch.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -465,33 +491,8 @@ var _react = _interopRequireDefault(__webpack_require__("./node_modules/react/in
 var _createSvgIcon = _interopRequireDefault(__webpack_require__("./node_modules/@material-ui/icons/utils/createSvgIcon.js"));
 
 var _default = (0, _createSvgIcon.default)(_react.default.createElement("g", null, _react.default.createElement("path", {
-  d: "M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"
-})), 'Code');
-
-exports.default = _default;
-
-/***/ }),
-
-/***/ "./node_modules/@material-ui/icons/Link.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(__webpack_require__("./node_modules/react/index.js"));
-
-var _createSvgIcon = _interopRequireDefault(__webpack_require__("./node_modules/@material-ui/icons/utils/createSvgIcon.js"));
-
-var _default = (0, _createSvgIcon.default)(_react.default.createElement("g", null, _react.default.createElement("path", {
-  d: "M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-})), 'Link');
+  d: "M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+})), 'Launch');
 
 exports.default = _default;
 
