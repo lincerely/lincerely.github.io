@@ -1,6 +1,6 @@
 
         __NEXT_REGISTER_CHUNK('components_cardGridList_3db201ccd96c9e07d0951a7f0984eb83', function() {
-      webpackJsonp([10],{
+      webpackJsonp([5],{
 
 /***/ "./components/cardGridList.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -166,6 +166,68 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 /***/ }),
 
+/***/ "./components/gogsIcon.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__material_ui_core_SvgIcon__ = __webpack_require__("./node_modules/@material-ui/core/SvgIcon/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__material_ui_core_SvgIcon___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__material_ui_core_SvgIcon__);
+var _jsxFileName = "/Users/lincoln/Codes/react/portfolio/components/gogsIcon.js";
+
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
+/* harmony default export */ __webpack_exports__["a"] = (function (props) {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__material_ui_core_SvgIcon___default.a, _extends({}, props, {
+    titleAccess: "Gogs icon",
+    "aria-hidden": "true",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("g", {
+    transform: "translate(0 -290.65)",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("g", {
+    transform: "matrix(.083162 0 0 .083162 .39666 271.9)",
+    "stroke-width": "12.025",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("g", {
+    transform: "matrix(4.4323 0 0 4.2969 -10.615 -759.71)",
+    "stroke-width": "2.7554",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("path", {
+    d: "m27.626 230.18-1.7963 7.3923a26.55 26.55 0 0 0 -9.9599 5.7856l-7.2443-2.1237-6.1676 10.682 5.4924 5.2418a26.55 26.55 0 0 0 -0.63452 5.6857 26.55 26.55 0 0 0 0.68354 5.8365l-5.4684 5.2177 6.1676 10.682 7.3007-2.1404a26.55 26.55 0 0 0 9.9969 5.7597l1.7759 7.3081h12.334l1.7963-7.3913a26.55 26.55 0 0 0 9.9599 -5.7856l7.2443 2.1228 6.1676-10.682-5.4924-5.2408a26.55 26.55 0 0 0 0.63452 -5.6866 26.55 26.55 0 0 0 -0.68355 -5.8356l5.4684-5.2186-6.1676-10.682-7.3007 2.1404a26.55 26.55 0 0 0 -9.996 -5.7588l-1.7759-7.309z",
+    "stroke-linecap": "round",
+    "stroke-width": "1.8226",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("path", {
+    d: "m33.867 243.43c-10.88-1.1e-4 -19.701 8.8202-19.701 19.701-1.25e-4 10.88 8.8202 19.701 19.701 19.701 6.1694-0.0143 11.976-2.9181 15.688-7.8455l0.0179 0.0107 0.10274-0.17755c0.9189-1.2328 1.6903-2.5688 2.2985-3.981l-12.388-7.1527c0.01826-0.18413 0.02739-0.36903 0.02774-0.55405-1.8e-5 -3.1738-2.5729-5.7467-5.7467-5.7468-3.1738 4e-5 -5.7467 2.5729-5.7468 5.7468 3.6e-5 3.1738 2.5729 5.7467 5.7468 5.7468 1.1797-2e-3 2.33-0.36815 3.2947-1.0471l7.4376 4.2946c-2.6573 3.1829-6.586 5.0279-10.732 5.0401-7.751-4e-5 -14.034-6.2834-14.034-14.034 3.6e-5 -7.751 6.2834-14.034 14.034-14.034 1.6443 9e-3 3.2742 0.30783 4.8153 0.88147 0.43294 0.23108 0.91912 0.35231 1.4133 0.35241 1.6194 1.3e-4 2.9322-1.2725 2.9321-2.8424-0.0014-1.0165-0.71145-1.9629-1.6207-2.4692 0 0-0.45966-0.22667-0.62045-0.28907-2.2056-0.85587-4.5537-1.2854-6.9196-1.2996z",
+    fill: "#fff",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    }
+  })))));
+});
+
+/***/ }),
+
 /***/ "./components/previewCard.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -178,19 +240,18 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__material_ui_core_Card___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__material_ui_core_Card__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__material_ui_core_CardContent__ = __webpack_require__("./node_modules/@material-ui/core/CardContent/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__material_ui_core_CardContent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__material_ui_core_CardContent__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__material_ui_core_CardActions__ = __webpack_require__("./node_modules/@material-ui/core/CardActions/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__material_ui_core_CardActions___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_CardActions__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__material_ui_core_CardMedia__ = __webpack_require__("./node_modules/@material-ui/core/CardMedia/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__material_ui_core_CardMedia___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_CardMedia__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__material_ui_core_Typography__ = __webpack_require__("./node_modules/@material-ui/core/Typography/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__material_ui_core_Typography___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_Typography__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__material_ui_core_IconButton__ = __webpack_require__("./node_modules/@material-ui/core/IconButton/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__material_ui_core_IconButton___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_IconButton__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__material_ui_core_Chip__ = __webpack_require__("./node_modules/@material-ui/core/Chip/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__material_ui_core_Chip___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__material_ui_core_Chip__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__material_ui_core_CardHeader__ = __webpack_require__("./node_modules/@material-ui/core/CardHeader/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__material_ui_core_CardHeader___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__material_ui_core_CardHeader__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_githubIcon__ = __webpack_require__("./components/githubIcon.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__material_ui_core_CardMedia__ = __webpack_require__("./node_modules/@material-ui/core/CardMedia/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__material_ui_core_CardMedia___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_CardMedia__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__material_ui_core_Typography__ = __webpack_require__("./node_modules/@material-ui/core/Typography/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__material_ui_core_Typography___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_Typography__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__material_ui_core_IconButton__ = __webpack_require__("./node_modules/@material-ui/core/IconButton/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__material_ui_core_IconButton___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_IconButton__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__material_ui_core_Chip__ = __webpack_require__("./node_modules/@material-ui/core/Chip/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__material_ui_core_Chip___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_Chip__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__material_ui_core_CardHeader__ = __webpack_require__("./node_modules/@material-ui/core/CardHeader/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__material_ui_core_CardHeader___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__material_ui_core_CardHeader__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_githubIcon__ = __webpack_require__("./components/githubIcon.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_gogsIcon__ = __webpack_require__("./components/gogsIcon.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_downloadIcon__ = __webpack_require__("./components/downloadIcon.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__material_ui_icons_Launch__ = __webpack_require__("./node_modules/@material-ui/icons/Launch.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__material_ui_icons_Launch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__material_ui_icons_Launch__);
@@ -314,67 +375,81 @@ function (_React$Component) {
           genre = data.genre,
           build = data.build,
           image = data.image,
-          vimeo = data.vimeo;
+          vimeo = data.vimeo,
+          gogs = data.gogs;
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 77
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__material_ui_core_Card___default.a, {
         className: classes.card,
         elevation: 0,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 78
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__material_ui_core_CardHeader___default.a, {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__material_ui_core_CardHeader___default.a, {
         title: title,
         subheader: brief,
-        action: github && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_IconButton___default.a, {
+        action: github && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_IconButton___default.a, {
           href: github,
           target: "_blanks",
           "aria-label": "github link",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 82
-          }
-        }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__components_githubIcon__["a" /* default */], {
-          __source: {
-            fileName: _jsxFileName,
             lineNumber: 83
           }
-        })) || build && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_IconButton___default.a, {
+        }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__components_githubIcon__["a" /* default */], {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 84
+          }
+        })) || gogs && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_IconButton___default.a, {
+          href: gogs,
+          target: "_blanks",
+          "aria-label": "gogs link",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 87
+          }
+        }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__components_gogsIcon__["a" /* default */], {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 88
+          }
+        })) || build && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_IconButton___default.a, {
           href: build,
           "aria-label": "build link",
           target: "_blanks",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 86
+            lineNumber: 91
           }
         }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_11__components_downloadIcon__["a" /* default */], {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 87
+            lineNumber: 92
           }
-        })) || link && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_IconButton___default.a, {
+        })) || link && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_IconButton___default.a, {
           href: link,
           target: "_blanks",
           "aria-label": "link",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 90
+            lineNumber: 95
           }
         }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_12__material_ui_icons_Launch___default.a, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 91
+            lineNumber: 96
           }
         })),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 81
         }
-      }), video || vimeo ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_CardMedia___default.a, {
+      }), video || vimeo ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_CardMedia___default.a, {
         title: title,
         src: video || vimeo,
         component: function component() {
@@ -385,7 +460,7 @@ function (_React$Component) {
             },
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 102
+              lineNumber: 107
             }
           }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_13_react_player___default.a, {
             style: {
@@ -401,46 +476,46 @@ function (_React$Component) {
             controls: true,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 103
+              lineNumber: 108
             }
           }));
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 103
         }
-      }) : __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_CardMedia___default.a, {
+      }) : __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_CardMedia___default.a, {
         className: classes.preview,
         image: image,
         title: title,
         component: "img",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 114
+          lineNumber: 119
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__material_ui_core_CardContent___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 121
+          lineNumber: 126
         }
       }, detail && detail.split("\n").map(function (line, index) {
-        return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_Typography___default.a, {
+        return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_Typography___default.a, {
           key: title.concat(index),
           paragraph: true,
           gutterBottom: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 124
+            lineNumber: 129
           }
         }, " ", line, " ");
       }), genre.map(function (tag) {
-        return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__material_ui_core_Chip___default.a, {
+        return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_Chip___default.a, {
           key: title + tag,
           label: tag,
           className: classes.chip,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 129
+            lineNumber: 134
           }
         });
       }))));
@@ -465,7 +540,8 @@ Object.defineProperty(PreviewCard, "defaultProps", {
       genre: [],
       brief: "No description",
       build: "",
-      image: ""
+      image: "",
+      gogs: ""
     }
   }
 });
