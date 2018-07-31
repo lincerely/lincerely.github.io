@@ -1,6 +1,6 @@
 
         __NEXT_REGISTER_CHUNK('components_cardGridList_3db201ccd96c9e07d0951a7f0984eb83', function() {
-      webpackJsonp([5],{
+      webpackJsonp([7],{
 
 /***/ "./components/cardGridList.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -196,22 +196,22 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("g", {
     transform: "matrix(.083162 0 0 .083162 .39666 271.9)",
-    "stroke-width": "12.025",
+    strokeWidth: "12.025",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("g", {
     transform: "matrix(4.4323 0 0 4.2969 -10.615 -759.71)",
-    "stroke-width": "2.7554",
+    strokeWidth: "2.7554",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("path", {
     d: "m27.626 230.18-1.7963 7.3923a26.55 26.55 0 0 0 -9.9599 5.7856l-7.2443-2.1237-6.1676 10.682 5.4924 5.2418a26.55 26.55 0 0 0 -0.63452 5.6857 26.55 26.55 0 0 0 0.68354 5.8365l-5.4684 5.2177 6.1676 10.682 7.3007-2.1404a26.55 26.55 0 0 0 9.9969 5.7597l1.7759 7.3081h12.334l1.7963-7.3913a26.55 26.55 0 0 0 9.9599 -5.7856l7.2443 2.1228 6.1676-10.682-5.4924-5.2408a26.55 26.55 0 0 0 0.63452 -5.6866 26.55 26.55 0 0 0 -0.68355 -5.8356l5.4684-5.2186-6.1676-10.682-7.3007 2.1404a26.55 26.55 0 0 0 -9.996 -5.7588l-1.7759-7.309z",
-    "stroke-linecap": "round",
-    "stroke-width": "1.8226",
+    strokeLinecap: "round",
+    strokeWidth: "1.8226",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
@@ -376,18 +376,19 @@ function (_React$Component) {
           build = data.build,
           image = data.image,
           vimeo = data.vimeo,
+          animation = data.animation,
           gogs = data.gogs;
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 78
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__material_ui_core_Card___default.a, {
         className: classes.card,
         elevation: 0,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 79
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__material_ui_core_CardHeader___default.a, {
         title: title,
@@ -398,12 +399,12 @@ function (_React$Component) {
           "aria-label": "github link",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 83
+            lineNumber: 84
           }
         }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__components_githubIcon__["a" /* default */], {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 84
+            lineNumber: 85
           }
         })) || gogs && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_IconButton___default.a, {
           href: gogs,
@@ -411,12 +412,12 @@ function (_React$Component) {
           "aria-label": "gogs link",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 87
+            lineNumber: 88
           }
         }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__components_gogsIcon__["a" /* default */], {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 88
+            lineNumber: 89
           }
         })) || build && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_IconButton___default.a, {
           href: build,
@@ -424,12 +425,12 @@ function (_React$Component) {
           target: "_blanks",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 91
+            lineNumber: 92
           }
         }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_11__components_downloadIcon__["a" /* default */], {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 92
+            lineNumber: 93
           }
         })) || link && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_IconButton___default.a, {
           href: link,
@@ -437,21 +438,21 @@ function (_React$Component) {
           "aria-label": "link",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 95
+            lineNumber: 96
           }
         }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_12__material_ui_icons_Launch___default.a, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 96
+            lineNumber: 97
           }
         })),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 82
         }
-      }), video || vimeo ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_CardMedia___default.a, {
+      }), video || vimeo || animation ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_CardMedia___default.a, {
         title: title,
-        src: video || vimeo,
+        src: video || vimeo || animation,
         component: function component() {
           return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
             style: {
@@ -460,9 +461,9 @@ function (_React$Component) {
             },
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 107
+              lineNumber: 108
             }
-          }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_13_react_player___default.a, {
+          }, animation && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_13_react_player___default.a, {
             style: {
               position: "absolute",
               top: 0,
@@ -470,19 +471,55 @@ function (_React$Component) {
               bottom: 0,
               right: 0
             },
-            url: video || vimeo,
+            url: animation,
+            width: "100%",
+            height: "100%",
+            loop: true,
+            volume: 0,
+            muted: true,
+            playsinline: true,
+            playing: true,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 114
+            }
+          }), video && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_13_react_player___default.a, {
+            style: {
+              position: "absolute",
+              top: 0,
+              left: 0,
+              bottom: 0,
+              right: 0
+            },
+            url: video,
             width: "100%",
             height: "100%",
             controls: true,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 108
+              lineNumber: 126
+            }
+          }), vimeo && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_13_react_player___default.a, {
+            style: {
+              position: "absolute",
+              top: 0,
+              left: 0,
+              bottom: 0,
+              right: 0
+            },
+            url: vimeo,
+            width: "100%",
+            height: "100%",
+            controls: true,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 134
             }
           }));
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 103
+          lineNumber: 104
         }
       }) : __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_CardMedia___default.a, {
         className: classes.preview,
@@ -491,12 +528,12 @@ function (_React$Component) {
         component: "img",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 119
+          lineNumber: 146
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__material_ui_core_CardContent___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 126
+          lineNumber: 153
         }
       }, detail && detail.split("\n").map(function (line, index) {
         return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_Typography___default.a, {
@@ -505,7 +542,7 @@ function (_React$Component) {
           gutterBottom: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 129
+            lineNumber: 156
           }
         }, " ", line, " ");
       }), genre.map(function (tag) {
@@ -515,7 +552,7 @@ function (_React$Component) {
           className: classes.chip,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 134
+            lineNumber: 161
           }
         });
       }))));
@@ -541,7 +578,8 @@ Object.defineProperty(PreviewCard, "defaultProps", {
       brief: "No description",
       build: "",
       image: "",
-      gogs: ""
+      gogs: "",
+      animation: ""
     }
   }
 });

@@ -41,7 +41,7 @@
     "genre": ["Python", "Game AI", "Machine learning"],
     "brief": "AI learn to play pong with Q-learning",
     "detail": "A weekend project, implements machine learning for Pong AI in Python. By using Q-learning method, the machine learning AI learns how to beat a traditional AI.",
-    "video": "/static/videos/pong.mp4",
+    "animation": "/static/videos/pong.mp4",
     "github": "https://github.com/lincerely/breakout-Q" 
 },
 {
@@ -81,6 +81,7 @@
     "genre": ["React", "Next.js", "Tool"],
     "brief": "This site",
     "gogs": "https://lincerely.duckdns.org/gogs/lincerely/portfolio",
-    "detail": "A data-driven work showcase, which use Next.js for server-side rendering and lazy loading."
+    "detail": "A data-driven work showcase, which use Next.js for server-side rendering and lazy loading.",
+    "animation":"/static/videos/namecard.mp4"
 }
 ]
