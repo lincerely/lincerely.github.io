@@ -1,6 +1,6 @@
 
         __NEXT_REGISTER_CHUNK('components_cardGridList_3db201ccd96c9e07d0951a7f0984eb83', function() {
-      webpackJsonp([7],{
+      webpackJsonp([9],{
 
 /***/ "./components/cardGridList.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -45,8 +45,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 /**
  * Card Grid List
  *
- * Display brief information of each section
- *
+ * @description Display brief information of each section
  * @param data - list of data you wish to print out
  */
 
@@ -91,13 +90,13 @@ function (_React$Component) {
         className: classes.root,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 53
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_react_masonry_component___default.a, {
         className: classes.gridContainer,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 54
         }
       }, data.map(function (work) {
         return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
@@ -105,13 +104,13 @@ function (_React$Component) {
           className: classes.card,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 58
+            lineNumber: 57
           }
         }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_previewCard__["a" /* default */], {
           data: work,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 59
+            lineNumber: 58
           }
         }));
       })));
@@ -147,19 +146,25 @@ var _jsxFileName = "/Users/lincoln/Codes/react/portfolio/components/downloadIcon
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 
+/**
+ * DownloadIcon
+ * 
+ * @description download icon from Android's material icon
+ */
+
 /* harmony default export */ __webpack_exports__["a"] = (function (props) {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__material_ui_core_SvgIcon___default.a, _extends({}, props, {
     titleAccess: "Download icon",
     "aria-hidden": "true",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 10
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("path", {
     d: "M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 11
     }
   }));
 });
@@ -180,33 +185,39 @@ var _jsxFileName = "/Users/lincoln/Codes/react/portfolio/components/gogsIcon.js"
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 
+/**
+ * GogsIcon
+ * 
+ * @description gogs monotonic icon optimized from their favicon
+ */
+
 /* harmony default export */ __webpack_exports__["a"] = (function (props) {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__material_ui_core_SvgIcon___default.a, _extends({}, props, {
     titleAccess: "Gogs icon",
     "aria-hidden": "true",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 10
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("g", {
     transform: "translate(0 -290.65)",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 11
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("g", {
     transform: "matrix(.083162 0 0 .083162 .39666 271.9)",
     strokeWidth: "12.025",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 12
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("g", {
     transform: "matrix(4.4323 0 0 4.2969 -10.615 -759.71)",
     strokeWidth: "2.7554",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 13
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("path", {
     d: "m27.626 230.18-1.7963 7.3923a26.55 26.55 0 0 0 -9.9599 5.7856l-7.2443-2.1237-6.1676 10.682 5.4924 5.2418a26.55 26.55 0 0 0 -0.63452 5.6857 26.55 26.55 0 0 0 0.68354 5.8365l-5.4684 5.2177 6.1676 10.682 7.3007-2.1404a26.55 26.55 0 0 0 9.9969 5.7597l1.7759 7.3081h12.334l1.7963-7.3913a26.55 26.55 0 0 0 9.9599 -5.7856l7.2443 2.1228 6.1676-10.682-5.4924-5.2408a26.55 26.55 0 0 0 0.63452 -5.6866 26.55 26.55 0 0 0 -0.68355 -5.8356l5.4684-5.2186-6.1676-10.682-7.3007 2.1404a26.55 26.55 0 0 0 -9.996 -5.7588l-1.7759-7.309z",
@@ -214,14 +225,14 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
     strokeWidth: "1.8226",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 14
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("path", {
     d: "m33.867 243.43c-10.88-1.1e-4 -19.701 8.8202-19.701 19.701-1.25e-4 10.88 8.8202 19.701 19.701 19.701 6.1694-0.0143 11.976-2.9181 15.688-7.8455l0.0179 0.0107 0.10274-0.17755c0.9189-1.2328 1.6903-2.5688 2.2985-3.981l-12.388-7.1527c0.01826-0.18413 0.02739-0.36903 0.02774-0.55405-1.8e-5 -3.1738-2.5729-5.7467-5.7467-5.7468-3.1738 4e-5 -5.7467 2.5729-5.7468 5.7468 3.6e-5 3.1738 2.5729 5.7467 5.7468 5.7468 1.1797-2e-3 2.33-0.36815 3.2947-1.0471l7.4376 4.2946c-2.6573 3.1829-6.586 5.0279-10.732 5.0401-7.751-4e-5 -14.034-6.2834-14.034-14.034 3.6e-5 -7.751 6.2834-14.034 14.034-14.034 1.6443 9e-3 3.2742 0.30783 4.8153 0.88147 0.43294 0.23108 0.91912 0.35231 1.4133 0.35241 1.6194 1.3e-4 2.9322-1.2725 2.9321-2.8424-0.0014-1.0165-0.71145-1.9629-1.6207-2.4692 0 0-0.45966-0.22667-0.62045-0.28907-2.2056-0.85587-4.5537-1.2854-6.9196-1.2996z",
     fill: "#fff",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 15
     }
   })))));
 });
@@ -303,6 +314,13 @@ var styles = function styles(theme) {
     }
   };
 };
+/**
+ * PreviewCard
+ * 
+ * @description display information of work in card
+ * @param data - object, with fields: title, detail, video, link, github, vimeo, genre, brief, build, image, gogs, animation
+ */
+
 
 var PreviewCard =
 /*#__PURE__*/
@@ -381,14 +399,14 @@ function (_React$Component) {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 84
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__material_ui_core_Card___default.a, {
         className: classes.card,
         elevation: 0,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 85
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__material_ui_core_CardHeader___default.a, {
         title: title,
@@ -399,12 +417,12 @@ function (_React$Component) {
           "aria-label": "github link",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 84
+            lineNumber: 90
           }
         }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__components_githubIcon__["a" /* default */], {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 85
+            lineNumber: 91
           }
         })) || gogs && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_IconButton___default.a, {
           href: gogs,
@@ -412,12 +430,12 @@ function (_React$Component) {
           "aria-label": "gogs link",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 88
+            lineNumber: 94
           }
         }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__components_gogsIcon__["a" /* default */], {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 89
+            lineNumber: 95
           }
         })) || build && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_IconButton___default.a, {
           href: build,
@@ -425,12 +443,12 @@ function (_React$Component) {
           target: "_blanks",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 92
+            lineNumber: 98
           }
         }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_11__components_downloadIcon__["a" /* default */], {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 93
+            lineNumber: 99
           }
         })) || link && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_IconButton___default.a, {
           href: link,
@@ -438,17 +456,17 @@ function (_React$Component) {
           "aria-label": "link",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 96
+            lineNumber: 102
           }
         }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_12__material_ui_icons_Launch___default.a, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 97
+            lineNumber: 103
           }
         })),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82
+          lineNumber: 88
         }
       }), video || vimeo || animation ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_CardMedia___default.a, {
         title: title,
@@ -461,7 +479,7 @@ function (_React$Component) {
             },
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 108
+              lineNumber: 114
             }
           }, animation && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_13_react_player___default.a, {
             style: {
@@ -481,7 +499,7 @@ function (_React$Component) {
             playing: true,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 114
+              lineNumber: 120
             }
           }), video && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_13_react_player___default.a, {
             style: {
@@ -497,7 +515,7 @@ function (_React$Component) {
             controls: true,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 126
+              lineNumber: 132
             }
           }), vimeo && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_13_react_player___default.a, {
             style: {
@@ -513,13 +531,13 @@ function (_React$Component) {
             controls: true,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 134
+              lineNumber: 140
             }
           }));
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 110
         }
       }) : __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_CardMedia___default.a, {
         className: classes.preview,
@@ -528,12 +546,12 @@ function (_React$Component) {
         component: "img",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 146
+          lineNumber: 152
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__material_ui_core_CardContent___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 153
+          lineNumber: 159
         }
       }, detail && detail.split("\n").map(function (line, index) {
         return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_Typography___default.a, {
@@ -542,7 +560,7 @@ function (_React$Component) {
           gutterBottom: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 156
+            lineNumber: 162
           }
         }, " ", line, " ");
       }), genre.map(function (tag) {
@@ -552,7 +570,7 @@ function (_React$Component) {
           className: classes.chip,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 161
+            lineNumber: 167
           }
         });
       }))));
